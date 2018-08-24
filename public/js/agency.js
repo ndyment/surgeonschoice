@@ -62,9 +62,9 @@ $('form[id=contactForm]').submit(function(){
 });
 
 // Contact form validation
-$.validate({
-  modules : 'html5, toggleDisabled'
-});
+// $.validate({
+//   modules : 'html5, toggleDisabled'
+// });
 
 function onContactCaptcha($form) {
   $('form#contactForm').submit();
@@ -77,6 +77,6 @@ function checkReCaptcha() {
   } else {
     $('.captcha-error').hide();
     $('.g-recaptcha-filler').hide();
-    $('.g-recaptcha').attr('disabled', true);
+    $('.g-recaptcha').attr('disabled', false);
   }
 }

@@ -232,8 +232,8 @@ googleAnalytics = "UA-111362160-1"
     error = "Message could not be sent. Please contact us at brian@surgeonschoice.ca instead."
 
 
-    [params.contact.captcha]
-      sitekey = "6Le9tFkUAAAAAN7zbs6kcZzY6s_Op-yldwhbQqfl"
+    # [params.contact.captcha]
+      sitekey = "6Ld472sUAAAAAMKYY4f1toFYEQDFIIuNEGJW0AUC"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
